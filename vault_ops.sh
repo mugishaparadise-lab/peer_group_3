@@ -15,7 +15,7 @@ case $choice in
    read -p "Enter new secret: " secret 
    echo  "$secret" >> secrets.txt
    echo "Secret added successfuly"
-   echo
+   echo 
    ;;
 2) 
    read -p "Enter text to find: " old_text
@@ -24,13 +24,13 @@ case $choice in
       sed -i "s/$old_text/$new_text/g" secrets.txt
       echo "Secret update successfully"
    else
-      echo "No watch found"
+      echo "No match found"
    fi 
-   echo 
+   echo  
    ;;
 3) 
    read -p  "Enter log message:" log_msg
-   timestamp=$(date "+%Y-%m-%d %H:%M:%S)
+   timestamp=$(date "+%Y-%m-%d %H:%M:%S") >> log.txt
    echo " Log entry added" 
    echo 
    ;;
