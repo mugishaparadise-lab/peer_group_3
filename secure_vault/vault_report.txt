@@ -1,0 +1,27 @@
+--- Vauly Security report ---
+Generated on: 30 Septemba 2025 12:21:09 alasiri EAT
+-----------------------
+File Name: keys.txt
+Size bytes: 51
+Last Modified: 
+Permissions: 664
+SECURITY RISK DETECTED: Permissions are too open!
+-----------------------------------------
+File Name: logs.txt
+Size bytes: 47
+Last Modified: 
+Permissions: 664
+SECURITY RISK DETECTED: Permissions are too open!
+-----------------------------------------
+File Name: secrets.txt
+Size bytes: 56
+Last Modified: 
+Permissions: 664
+SECURITY RISK DETECTED: Permissions are too open!
+-----------------------------------------
+File Name: vault_report.txt
+Size bytes: 589
+Last Modified: 
+Permissions: 664
+SECURITY RISK DETECTED: Permissions are too open!
+-----------------------------------------
